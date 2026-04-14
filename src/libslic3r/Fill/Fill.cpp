@@ -1380,6 +1380,7 @@ Polylines Layer::generate_sparse_infill_polylines_for_anchoring(FillAdaptive::Oc
         case ipConcentricInternal: continue; break;
         case ipLightning:
 		case ipAdaptiveCubic:
+		case ipAdaptiveCrossZag:
         case ipSupportCubic:
         case ipRectilinear:
         case ipMonotonic:
