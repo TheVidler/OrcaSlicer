@@ -19,6 +19,7 @@
 #include "FillTpmsFK.hpp"
 #include "FillConcentric.hpp"
 #include "libslic3r.h"
+#include "FillAdaptiveCrossZag.hpp"
 
 namespace Slic3r {
 
