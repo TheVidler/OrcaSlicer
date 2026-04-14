@@ -76,7 +76,7 @@ enum InfillPattern : int {
     ipRectilinear, ipAlignedRectilinear, ipZigZag, ipCrossZag, ipLockedZag,
     ipLine, ipGrid,
     ipTriangles, ipStars,
-    ipCubic, ipAdaptiveCubic, ipQuarterCubic, ipSupportCubic, ipLightning,
+    ipCubic, ipAdaptiveCubic, ipAdaptiveCrossZag, ipQuarterCubic, ipSupportCubic, ipLightning,
     ipHoneycomb, ip3DHoneycomb, ipLateralHoneycomb, ipLateralLattice,
     ipCrossHatch, ipTpmsD, ipTpmsFK, ipGyroid,
     ipConcentric, ipHilbertCurve, ipArchimedeanChords, ipOctagramSpiral,
