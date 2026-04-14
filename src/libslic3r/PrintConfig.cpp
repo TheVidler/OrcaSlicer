@@ -2832,6 +2832,7 @@ void PrintConfigDef::init_fff_params()
     def->enum_values.push_back("tri-hexagon");
     def->enum_values.push_back("cubic");
     def->enum_values.push_back("adaptivecubic");
+	def->enum_values.push_back("adaptive_cross_zag");
     def->enum_values.push_back("quartercubic");
     def->enum_values.push_back("supportcubic");
     def->enum_values.push_back("lightning");
@@ -2858,6 +2859,7 @@ void PrintConfigDef::init_fff_params()
     def->enum_labels.push_back(L("Tri-hexagon"));
     def->enum_labels.push_back(L("Cubic"));
     def->enum_labels.push_back(L("Adaptive Cubic"));
+	def->enum_labels.push_back(_utf8("Adaptive Cross Zag"));
     def->enum_labels.push_back(L("Quarter Cubic"));
     def->enum_labels.push_back(L("Support Cubic"));
     def->enum_labels.push_back(L("Lightning"));
